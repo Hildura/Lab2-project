@@ -1,0 +1,23 @@
+# asiakaspalautedata
+feedbacks = [
+    {
+        "name": "Sanna S.",
+        "rating": 5,
+        "comment": "⭐️⭐️⭐️⭐️⭐️ Ihan paras pupukuori ikinä! Tilasin kaksi eri väriä 💕",
+    },
+    {
+        "name": "Mika M.",
+        "rating": 4,
+        "comment": "Kuori on hyvän näköinen ja tuntuu laadukkaalta. Plussaa nopeasta toimituksesta.",
+    },
+    {
+        "name": "Jenni J.",
+        "rating": 3,
+        "comment": "Kuori on söpö mutta ei sovi kunnolla laturin kanssa. Muuten jees.",
+    },
+    {
+        "name": "Anonyymi asiakas",
+        "rating": 5,
+        "comment": "Ostin glitterkuoren lahjaksi ja se oli hitti! 💖✨",
+    },
+]
