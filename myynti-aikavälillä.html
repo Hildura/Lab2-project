@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <title>Myyntiraportti – Suojis Admin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f6f6f6;
+      color: #333;
+    }
+    .card {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    input[type="date"] {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.25rem;
+    }
+    button {
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      background-color: #0055aa;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #003f88;
+    }
+    #status {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #006600;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <h1>Myyntiraportti ajanjaksolta</h1>
+  <p>Valitse aikaväli, jolta haluat ladata myyntiraportin.</p>
+  
+  <label for="start-date">Aloituspäivämäärä</label>
+  <input type="date" id="start-date">
+
+  <label for="end-date">Loppupäivämäärä</label>
+  <input type="date" id="end-date">
+
+  <button onclick="lataaMyyntiraportti()">Lataa raportti</button>
+  <p id="status"></p>
+</div>
+
+<script>
+  function lataaMyyntiraportti() {
+    const start = document.getElementById("start-date").value;
+    const end = document.getElementById("end-date").value;
+    const status = document.getElementById("status");
+
+    if (!start || !end) {
+      status.textContent = "Valitse molemmat päivämäärät.";
+      status.style.color = "red";
+      return;
+    }
+
+    status.textContent = "Haetaan raporttia...";
+
+    // Simuloidaan palvelinkutsua (fiktiivinen esimerkki)
+    setTimeout(() => {
+      const tiedostoUrl = `/raportit/myynti_${start}_${end}.csv`;
+
+      const linkki = document.createElement("a");
+      linkki.href = tiedostoUrl;
+      linkki.download = `myyntiraportti_${start}_–_${end}.csv`;
+      document.body.appendChild(linkki);
+      linkki.click();
+      document.body.removeChild(linkki);
+
+      status.textContent = "Raportti ladattu onnistuneesti.";
+      status.style.color = "#006600";
+    }, 2000);
+  }
+</script>
+
+</body>
+</html>
+
