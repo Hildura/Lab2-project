@@ -1,0 +1,94 @@
+/* Suojakuorikaupan tyylitiedosto */
+
+body {
+    background-color: #f5f5f5;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Otsikko ja logo */
+#logo {
+    font-size: 48px;
+    font-weight: bold;
+    color: hotpink;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px #ffccff;
+}
+
+/* Navigointipalkki */
+nav {
+    background-color: #ff69b4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: yellow;
+    font-size: 18px;
+}
+
+/* Tuotekortti */
+.product-card {
+    background-color: white;
+    border: 2px dashed pink;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px #ccc;
+    width: 200px;
+    margin: 20px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.product-name {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ff1493;
+}
+
+.price {
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
+
+/* Osta-nappi */
+.buy-button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: hotpink;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #ffe6f0;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+}
