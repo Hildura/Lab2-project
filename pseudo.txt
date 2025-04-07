@@ -1,0 +1,20 @@
+1. Aloita ohjelma
+2. Näytä rekisteröitymislomake (käyttäjänimi, sähköposti, salasana, vahvista salasana)
+3. Kun käyttäjä painaa "Rekisteröidy"-painiketta:
+4.   Hae käyttäjänimi kentästä
+5.   Hae sähköposti kentästä
+6.   Hae salasana kentästä
+7.   Hae vahvistettu salasana kentästä
+8.   Jos jokin kenttä on tyhjä:
+9.       Näytä "Täytä kaikki kentät" -ilmoitus
+10.  Jos salasana ja vahvistus eivät täsmää:
+11.      Näytä "Salasanat eivät täsmää" -ilmoitus
+12.  Jos salasana on liian lyhyt:
+13.      Näytä "Salasanan on oltava vähintään 8 merkkiä"
+14.  Tarkista onko sähköposti jo rekisteröity:
+15.      Jos on:
+16.          Näytä "Sähköposti on jo käytössä" -ilmoitus
+17.  Muussa tapauksessa:
+18.      Tallenna käyttäjän tiedot tietokantaan
+19.      Näytä "Rekisteröityminen onnistui!" -ilmoitus
+20. Lopeta ohjelma
