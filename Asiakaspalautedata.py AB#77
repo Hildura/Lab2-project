@@ -20,4 +20,10 @@ feedbacks = [
         "rating": 5,
         "comment": "Ostin glitterkuoren lahjaksi ja se oli hitti! 💖✨",
     },
+    {
+        "name": "Antti T.",
+        "rating": 3,
+        "comment": "Ihan jees kuoret. Perus kamaa. Nopea toimitus.",
+    },
+
 ]
