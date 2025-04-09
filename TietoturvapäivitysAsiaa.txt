@@ -1,0 +1,62 @@
+TIETOTURVADOKUMENTAATIO
+Yritys: Suojis Verkkokauppa Oy
+Päivämäärä: 9.4.2025
+Versio: 0.9.1-rc-suojaton
+Laatija: IT-Guru Mika M., virallinen epävirallinen tietoturvavastaava
+
+1. Johdanto
+Tämä dokumentaatio kuvaa Suojis Verkkokaupan fiktiivisen (mutta sydämellä laaditun) tietoturvastrategian. Kaikki tiedot ovat kuvitteellisia, mutta jotenkin silti yllättävän uskottavia.
+
+2. Tietoturvaperiaatteet
+Salassapito: Kaikki asiakastiedot säilytetään salaisten kansioiden sisällä nimellä “ÄläAvaa.docx”.
+
+Saatavuus: Palvelu on käytettävissä niin kauan kuin sähkö on päällä ja kahvia on keitetty.
+
+Eheys: Tietoa ei muokata, ellei joku paina väärää nappia – mikä tapahtuu noin kerran viikossa.
+
+3. Käyttäjähallinta
+Käyttäjätunnukset luodaan automaattisesti, perustuen asiakkaan lempijäätelömakuun.
+
+Salasanojen vähimmäisvaatimus: 1 iso kirjain, 1 pieni kirjain, 1 erikoismerkki, 1 kirosana ja 1 hyppynaru.
+
+Unohtunut salasana palautetaan arvaamalla arvoituksia.
+
+4. Järjestelmät ja verkko
+Palvelinhuoneessa käytetään erikoisilmastointia: ikkunaa avataan välillä.
+
+Verkkoliikenne suojataan legendaarisella "SuojisShield™" -teknologialla (käytännössä paksu folio reitittimen ympärillä).
+
+DNS-pyynnöt ohjautuvat mystisesti ensin pizzabuffetin kautta – kukaan ei tiedä miksi, mutta se toimii.
+
+5. Lokitus ja seuranta
+Kaikki lokitiedot tallennetaan Excel-tiedostoon nimellä “Loki_Final_Todellinen_final2_vika.xlsx”.
+
+Epäilyttävä toiminta aiheuttaa automaattisesti IT-hälytyksen, joka toistetaan modulaatioäänellä kahvihuoneen kaiuttimista.
+
+6. Poikkeamat ja reagointi
+Tietoturvapoikkeamat raportoidaan sähköpostilla otsikolla: “Apua, nyt meni jotain rikki”.
+
+Jos järjestelmä hakkeroidaan, henkilöstö siirtyy hätätilanteen toimintamalliin: sammuta kone ja juokse.
+
+Vakavissa tapauksissa otetaan yhteys tietoturvakonsulttiin... joka on lomalla.
+
+7. Henkilöstön koulutus
+Kaikille uusille työntekijöille järjestetään pakollinen “Suojis Survival” -bootcamp, jossa opetellaan mm. piilottamaan USB-tikut ja katsomaan epäluuloisesti kaikkia.
+
+Koulutusmateriaali sisältää seuraavat moduulit:
+
+“Miksi salasana123 ei ole hyvä?”
+
+“Phishing vai fishing – kumpaa harrastat enemmän?”
+
+“Tietoturva vs. tietoturha”
+
+8. Liitteet
+Liite A: Väärennetty riskikartta (väritetty Paintilla)
+
+Liite B: SuojisShield™ -konsepti selitetty sarjakuvana
+
+Liite C: Esimerkki epäilyttävästä sähköpostista (spoileri: se ei ollut oikeasti prinssi)
+
+VAROITUS: Tämä dokumentti on huumorimielinen eikä heijasta todellisia tietoturvakäytäntöjä. Käyttö omalla vastuulla (ja ehkä lakimiehen kanssa).
+
